@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Noto Serif', serif; */
+
+.header{
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgb(8, 8, 8);
+    letter-spacing: 5px !important;
+    height: 60px;
+    z-index: 9999 !important;
+}
+.headerItems a{
+    color: rgba(237, 5, 24) !important;
+    font-size: 12px;
+    font-weight: 900;
+    margin: 0 30px;
+    font-family: 'Noto Serif', serif;
+}
+.headerItems a:hover{
+    color: black !important;
+    font-weight: 900;
+}
+.active{
+    border-bottom: 2px solid rgba(237, 5, 24);
+}

@@ -9,16 +9,20 @@
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     border-radius: 12px !important;
+
 }
 .cardHeader{
-    background-color: antiquewhite !important;
+    background-color: white !important;
     border: none !important;
     letter-spacing: 4px;
+    opacity: 0.1 !important;
+    font-weight: 900 !important;
+    color: black;
 }
 .Topic{
     font-size: 16px;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     padding-bottom: 15px;
     border-bottom:  1px solid rgba(237, 5, 24);
 }

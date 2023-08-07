@@ -35,9 +35,46 @@
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
-.ContentAboutTwo{
-    width: 100%;
-    margin: 20px auto;
+.ContentAbout a {
+    text-decoration: none !important;
+    cursor: pointer;
+    color: rgba(7, 228, 240);
+}
+.Headers{
     font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 700 !important;
+}
+.Bucket{
+    font-size: 64px;
+    color: black;
+}
+.Projects{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 150px;
+}
+.loader{
+    height: 100vh;
+    background-color: black;
+    align-items: center !important;
     text-align: center;
+    }
+    .loaderComponent{
+        vertical-align: middle;
+        margin: 20% auto !important;
+    }
+
+@media only screen and (max-width: 600px) {
+    .ContentAbout{
+        width: 100%;
+        margin:0 auto;
+    }
+    .Content{
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    .loaderComponent{
+        vertical-align: middle;
+        margin: 60% auto !important;
+    }
 }

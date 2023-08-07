@@ -10,6 +10,7 @@ export default function Header() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(!show); 
   const [activeTab, setActiveTab] = useState("");
+
   useEffect(() => {
     if (typeof window !== 'undefined') {
       if (activeTab !== window.location.pathname) {
@@ -17,6 +18,7 @@ export default function Header() {
       }
     }
   }, [activeTab])
+  
   return (<div className="container-fluid p-0">
     <nav className={`navbar navbar-sticky navbar-expand-lg ${Styles.header}`}>
       <div className="container-fluid">

@@ -1,7 +1,8 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header'
+import "bootstrap"; // <-- js file
+
 
 
 const inter = Inter({ subsets: ['latin'] })

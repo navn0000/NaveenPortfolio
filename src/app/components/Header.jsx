@@ -35,16 +35,12 @@ export default function Header() {
               <Link className={`nav-link ${activeTab === "/skills" && Styles.active}`} href="/skills">Skills</Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link ${activeTab === "/projects" && Styles.active}`} href="/projects">Projects</Link>
-            </li>
-            <li className="nav-item">
               <Link className={`nav-link ${activeTab === "/blogs" && Styles.active}`} href="/blogs">Blogs</Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className={`nav-link ${activeTab === "/experience" && Styles.active}`} href="/experience">Experience</Link>
-            </li> */}
-
             <li className="nav-item">
+              <Link className={`nav-link ${activeTab === "/projects" && Styles.active}`} href="/projects">Projects</Link>
+            </li>
+           <li className="nav-item">
               <Link className={`nav-link ${activeTab === "/about" && Styles.active}`} href="/about">About</Link>
             </li>
           </ul>
@@ -53,7 +49,7 @@ export default function Header() {
     </nav>
     <Offcanvas show={show} onHide={handleClose} responsive="lg" className={Styles.OffcanvasContainer}>
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title>Naveenkumar Ramkumar</Offcanvas.Title>
+        <Offcanvas.Title></Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
         <ul className={`navbar-nav m-0 p-0 ${Styles.headerItems}`}>
@@ -64,11 +60,12 @@ export default function Header() {
             <Link className={`nav-link ${activeTab === "/skills" && Styles.active}`} href="/skills">Skills</Link>
           </li>
           <li className="nav-item">
-            <Link className={`nav-link ${activeTab === "/projects" && Styles.active}`} href="/projects">Projects</Link>
-          </li>
-          <li className="nav-item">
             <Link className={`nav-link ${activeTab === "/blogs" && Styles.active}`} href="/blogs">Blogs</Link>
           </li>
+          <li className="nav-item">
+            <Link className={`nav-link ${activeTab === "/projects" && Styles.active}`} href="/projects">Projects</Link>
+          </li>
+        
           <li className="nav-item">
             <Link className={`nav-link ${activeTab === "/about" && Styles.active}`} href="/about">About</Link>
           </li>

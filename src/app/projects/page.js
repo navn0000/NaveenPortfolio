@@ -1,14 +1,15 @@
 import Header from "../components/Header";
-import {FcEmptyTrash} from 'react-icons/fc';
 import Styles from '../styleSheets/HomePage.module.css';
+import Empty from "../assets/empty.jpg"
+import Image from "next/image";
 
 export default function Projects(){
     return(<div>
 <Header />
      <div className={`text-center ${Styles.Projects}`}>
-        <span className={Styles.Bucket}><FcEmptyTrash />
-</span>
-    <p>Sorry, at the moment there are no projects in the bucket !</p>
+<Image src={Empty} alt='img' width="300" height="200"></Image>
+
+    <p>Apologies, currently there are no projects in the box. However, it will be filled shortly and showcased on this page.</p>
      </div>
     </div>)
 }

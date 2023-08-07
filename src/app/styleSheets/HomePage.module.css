@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-/* font-family: 'Ubuntu', sans-serif; */
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Serif:wght@500&family=Space+Grotesk&display=swap');
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Space Grotesk', sans-serif; */
 
 .hello{
     font-size: 160px;
 }
 .profileImage{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     margin: 25px;
     border-radius: 50%;
-    box-shadow: 0 10px 4px 0 rgba(7, 228, 240);
+    box-shadow: 0 2px 4px 0 rgba(7, 228, 240);
 }
 .home{
     margin-top: 20px;
@@ -23,25 +24,25 @@
     text-align: center;
     font-size: 16px;
     font-weight: 500 !important;
-    font-family: 'Ubuntu', sans-serif;
-    /* border-bottom:  1px solid rgba(237, 5, 24); */
+    font-family: 'Space Grotesk', sans-serif;
 }
 .Name{
     font-weight: 900 !important;
 }
 .ContentAbout{
-    width: 70%;
-    margin: 20px auto;
-    font-family: 'Ubuntu', sans-serif;
+    width: 80%;
+    margin: 0px auto;
+    font-family: 'Space Grotesk', sans-serif;
     text-align: center;
 }
 .ContentAbout a {
     text-decoration: none !important;
     cursor: pointer;
     color: rgba(7, 228, 240);
+    font-family: 'Space Grotesk', sans-serif;
 }
 .Headers{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 24px;
     font-weight: 700 !important;
 }
@@ -50,19 +51,17 @@
     color: black;
 }
 .Projects{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     margin-top: 150px;
 }
 .loader{
     height: 100vh;
     background-color: black;
     align-items: center !important;
-    text-align: center;
-    }
-    .loaderComponent{
-        vertical-align: middle;
-        margin: 20% auto !important;
-    }
+    display: flex;
+    justify-content: center;
+}
+
 
 @media only screen and (max-width: 600px) {
     .ContentAbout{
@@ -73,12 +72,16 @@
         width: 100%;
         margin-bottom: 200px;
     }
+    .Content p{
+        font-size: 12px;
+
+    }
     .loaderComponent{
         vertical-align: middle;
-        margin: 60% auto !important;
     }
     .ContentAbout p {
         font-size: 12px;
+        margin: 5px;
     }
     .Headers{
         font-size: 14px;
@@ -86,6 +89,7 @@
     .profileImage{
         width: 200px;
         height: 200px;
-        margin:10px;
+        margin: 5px;
+
     }
 }

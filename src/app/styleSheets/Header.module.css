@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&display=swap');
-/* font-family: 'Ubuntu', sans-serif; */
-/* font-family: 'Noto Serif', serif; */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Serif:wght@500&family=Space+Grotesk&display=swap');
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Space Grotesk', sans-serif; */
 
 .header{
     background-color: white;

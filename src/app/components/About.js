@@ -20,10 +20,7 @@ export const AboutSplitOne = () => {
                     <p>
                         On the professional front, I am enthusiastic and dedicated to my work. Embracing challenges and striving to grow, I approach every task with a sense of purpose and determination. Contributing meaningfully to my profession brings me immense satisfaction.
                     </p>
-                    <p>In my personal life, I value relationships and cherish spending time with loved ones. I believe in the importance of balance, making time for both personal pursuits and being there for those who matter most.
-                    </p>
-                    <p>Overall, I am an individual who finds joy in the simple pleasures of life, be it playing cricket, exploring new books, or excelling in my chosen field of work. I am constantly evolving, seeking knowledge, and embracing the beauty of life's journey.</p>
-
+                    <p>In my personal life, I value relationships and cherish spending time with loved ones. I believe in the importance of balance, making time for both personal pursuits and being there for those who matter most. </p>
                 </div>
             </div>
         </div>
@@ -37,9 +34,9 @@ export const AboutSplitTwo = () => {
                 <h1 className={`text-center ${Styles.Headers}`}> 🧑🏻‍🎓 Educational Background </h1>
                 <div className={Styles.ContentAbout}>
                    <p>
-My educational journey has been shaped by some of the finest institutions in the region. In 2019, I successfully completed my undergraduate studies, earning a Bachelor of Science (B.Sc.) degree in Computer Technology from Hindustan College of Arts and Science. During my time there, I gained valuable knowledge and skills in the field of computer technology, preparing me for a promising career ahead.</p>
-                <p>Prior to that, I completed my Higher Secondary Certificate (HSC) from PSG Sarvajana Higher Secondary School in 2016. The school's nurturing environment and excellent faculty contributed significantly to my academic growth during those crucial years of my education.</p>
-               <p>My foundation for learning was laid during my Secondary School Leaving Certificate (SSLC) education at SMTD Padmavathi Ammal High School. The school's emphasis on academic excellence and holistic development has left a lasting impact on my approach to learning.</p>
+My educational journey has been shaped by some of the finest institutions in the region. I successfully completed my undergraduate studies, earning a Bachelor of Science (B.Sc.) degree in Computer Technology from Hindustan College of Arts and Science, Coimbatore. During my time there, I gained valuable knowledge and skills in the field of computer technology, preparing me for a promising career ahead.</p>
+                <p>Prior to that, I completed my Higher Secondary Certificate (HSC) from PSG Sarvajana Higher Secondary School, Coimbatore. The school's nurturing environment and excellent faculty contributed significantly to my academic growth during those crucial years of my education.</p>
+               <p>My foundation for learning was laid during my Secondary School Leaving Certificate (SSLC) education at SMTD Padmavathi Ammal High School, Coimbatore. The school's emphasis on academic excellence and holistic development has left a lasting impact on my approach to learning.</p>
                 </div>
             </div>
         </div>
@@ -87,6 +84,19 @@ export const AboutSplitFour = () => {
                 <p>As a software developer, my <span className={Styles.Name}>mission</span> is to be a catalyst for positive change through the creation of innovative and purposeful digital solutions. With a relentless pursuit of excellence, I am dedicated to crafting code that transforms complex challenges into elegant and efficient software products. </p>
                   <p>In pursuit of my <span className={Styles.Name}>vision</span>, I am committed to continuous learning and staying at the forefront of emerging technologies. I envision a future where my contributions impact industries, improve lives, and foster a culture of innovation. Through dedication, perseverance, and a relentless pursuit of excellence, I am dedicated to realizing this vision and leaving an indelible mark on the world of software development.</p>
                   <p>My <span className={Styles.Name}>vision</span> extends beyond software development; it encompasses a strong desire to uplift others through my expertise. I aim to be a guiding light for aspiring developers, sharing knowledge, insights, and resources that empower them to embark on their own journeys of growth.</p>
+                </div>
+            </div>
+        </div>
+    </div>)
+}
+
+export const AboutSplitSix = () => {
+    return (<div className='container-fluid'>
+        <div className='row'>
+            <div className='col-md-12'>
+                <h1 className={`text-center ${Styles.Headers}`}>🫵🏽 A Quote for Life</h1>
+                <div className={Styles.ContentAbout }>
+               <h1>Recover a failure in good way</h1>
                 </div>
             </div>
         </div>

@@ -12,13 +12,10 @@ export default function Skills() {
         <h1 className={Styles.Topic}>Skills are not just tools; they are the masterpieces we craft throughout our journey</h1>
         <div className="row">
             {skills.map((i)=>{
-                return  <div className="col-md-4">
+                return  <div className="col-sm-4 col-md-4">
                 <div className={`card ${Styles.cardOuter}`}>
-                    <div className={`card-header ${Styles.cardHeader}`}>
-                        {i.title}
-                    </div>
                     <div className="card-body">
-                        <p>{i.description}</p>
+                        <p>{i.title}</p>
                     </div>
                 </div>
             </div>

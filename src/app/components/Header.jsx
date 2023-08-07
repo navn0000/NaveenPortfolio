@@ -2,8 +2,10 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Styles from '../styleSheets/Header.module.css'
-import {Offcanvas} from 'react-bootstrap/Offcanvas';
+import Offcanvas from 'react-bootstrap/Offcanvas';
 import { AiOutlineMenuUnfold } from 'react-icons/ai';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function Header() {
   const [show, setShow] = useState(false);

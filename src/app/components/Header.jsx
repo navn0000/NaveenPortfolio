@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Styles from '../styleSheets/Header.module.css'
-import Offcanvas from 'react-bootstrap/Offcanvas'
 import { AiOutlineMenuUnfold } from 'react-icons/ai';
+import { Offcanvas } from "react-bootstrap";
 
 
 export default function Header() {

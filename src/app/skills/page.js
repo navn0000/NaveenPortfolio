@@ -2,7 +2,6 @@ import Image from "next/image";
 import Header from "../components/Header";
 import { skills } from "../data";
 import Styles from "../styleSheets/Skills.module.css"
-import Experience from "../experience/page";
 
 
 export default function Skills() {

@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Styles from '../styleSheets/Header.module.css'
-// import { Offcanvas } from "react-bootstrap";
+import { Offcanvas } from "react-bootstrap";
 import { AiOutlineMenuUnfold } from 'react-icons/ai';
 
 export default function Header() {
@@ -50,7 +50,7 @@ export default function Header() {
         </div>
       </div>
     </nav>
-    {/* <Offcanvas show={show} onHide={handleClose} responsive="lg" className={Styles.OffcanvasContainer}>
+    <Offcanvas show={show} onHide={handleClose} responsive="lg" className={Styles.OffcanvasContainer}>
       <Offcanvas.Header closeButton>
         <Offcanvas.Title>Naveenkumar Ramkumar</Offcanvas.Title>
       </Offcanvas.Header>
@@ -69,14 +69,10 @@ export default function Header() {
             <Link className={`nav-link ${activeTab === "/blogs" && Styles.active}`} href="/blogs">Blogs</Link>
           </li>
           <li className="nav-item">
-              <Link className={`nav-link ${activeTab === "/experience" && Styles.active}`} href="/experience">Experience</Link>
-            </li>
-
-          <li className="nav-item">
             <Link className={`nav-link ${activeTab === "/about" && Styles.active}`} href="/about">About</Link>
           </li>
         </ul>
       </Offcanvas.Body>
-    </Offcanvas> */}
+    </Offcanvas>
   </div>)
 }

@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Styles from '../styleSheets/HomePage.module.css';
-import PR from '../assets/pr.jpeg'
-import BR from '../assets/CoverPic.jpg'
+import PR from '../assets/pr.jpeg';
 
 
 export default function HomePage(){

@@ -1,13 +1,10 @@
-import Image from "next/image";
-import Header from "../components/Header";
-import { skills } from "../data";
-import Styles from "../styleSheets/Skills.module.css"
+import { skills } from "../../data";
+import Styles from "../../styleSheets/Skills.module.css";
 
 
 export default function Skills() {
     return (
     <>
-    <Header />
        <div className="container mt-5">
         <h1 className={Styles.Topic}>Skills are not just tools; they are the masterpieces we craft throughout our journey</h1>
         <div className="row">

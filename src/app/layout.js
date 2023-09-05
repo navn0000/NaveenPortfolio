@@ -1,8 +1,8 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-import 'bootstrap/dist/css/bootstrap.css'
+"use client"
+import './globals.css';
+import { Inter } from 'next/font/google';
+import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header'
 
 
 const inter = Inter({ subsets: ['latin'] })

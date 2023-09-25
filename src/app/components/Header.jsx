@@ -55,7 +55,7 @@ export default function Header() {
                 const isActive = pathname === routes.route
                 return <li className="nav-item">
                   <Link className={`nav-link ${isActive && Styles.active}`}
-                    href={routes?.route}
+                    href={routes?.route} onClick={handleClose}
                    >
                     {routes.Name}
                   </Link>
